@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: transparent;
+}
+.heading{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+.navbar{
+    background-color: black;
+}
+.navlist{
+  overflow: auto;
+}
+.nav{
+    padding: 12px;
+}
+.navlist li{
+  float: left;
+  list-style: none; 
+   padding: 14px;
+}
+.createAccount{
+    float: right;
+}
+#create{
+    font-family: 'Poppins', sans-serif;
+    padding: 9px;
+}
+.navlist li a{
+  text-decoration: none;
+  color: white;
+  font-family: 'Poppins', sans-serif; 
+}
+.navlist li a:hover{
+  color: lightblue;
+}
+.navlist li a:active{
+  color: rgb(236, 50, 88);
+}
