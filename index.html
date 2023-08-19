@@ -17,7 +17,7 @@
                     <li><a href="#scert">SCERT</a></li>
                     <li><a href="#contact">Contact</a></li>
                     <div class="createAccount">
-                        <button id="create">Create your account</button>
+                        <button id="create" onclick="create()">Create your account</button>
                     </div>
                 </ul>
             </div>
@@ -36,12 +36,12 @@
         <div id="contact">
             <h1>Contact</h1>
         </div>
-        <div id="createacc">
-            <form action="" id="register">
-                
-            </form>
-        </div>
     </div>
+    <form action="" id="register">
+        <h1 class="headregister">Create your account</h1>
+        <br><br>
+        Name: <input type="text" placeholder="Enter name here" required>
+    </form>
     <script src="script.js"></script>
 </body>
 </html>

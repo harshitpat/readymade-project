@@ -13,6 +13,9 @@ body{
 }
 .navbar{
     background-color: black;
+    position: fixed;
+    
+    width: 100%;
 }
 .navlist{
   overflow: auto;
@@ -23,7 +26,7 @@ body{
 .navlist li{
   float: left;
   list-style: none; 
-   padding: 14px;
+  padding: 14px;
 }
 .createAccount{
     float: right;
@@ -31,6 +34,22 @@ body{
 #create{
     font-family: 'Poppins', sans-serif;
     padding: 9px;
+    border: 2px solid brown;
+    border-radius: 32px;
+    font-weight: bold;
+    cursor: pointer;
+    color: rgb(201, 92, 14);
+    background-color: bisque;
+}
+#create:hover{
+  background-color: rgb(240, 240, 127);
+  font-weight: bold;
+  color:crimson;
+}
+#create:active{
+  font-weight: bold;
+  color: blue;
+  background-color: rgb(190, 247, 247);
 }
 .navlist li a{
   text-decoration: none;
@@ -44,30 +63,66 @@ body{
   color: rgb(236, 50, 88);
 }
 #home{
+  border: 2px solid black;
+  font-family: 'Poppins', sans-serif;
   background-color: burlywood;
   text-align: center;
   justify-content: center;
+  align-items: center;  
   width: 100%;
-  height: 800px;
+  height: 750px;
+}
+#home h1{
+  padding: 100px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 #ncert{
+  border: 2px solid black;
+  font-family: 'Poppins', sans-serif;
   background-color: chocolate;
   text-align: center;
   justify-content: center;
+  align-items: center;
   width: 100%;
-  height: 800px;
+  height: 750px;
+}
+#ncert h1{
+  padding: 100px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 #scert{
+  border: 2px solid black;
+  font-family: 'Poppins', sans-serif;
   background-color: lightsalmon;
   text-align: center;
   justify-content: center;
+  align-items: center;
   width: 100%;
-  height: 800px;
+  height: 750px;
+}
+#scert h1{
+  padding: 100px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 #contact{
+  border: 2px solid black;
+  font-family: 'Poppins', sans-serif;
   background-color: bisque;
   text-align: center;
   justify-content: center;
+  align-items: center;
   width: 100%;
-  height: 800px;
+  height: 750px;
+}
+#contact h1{
+  padding: 100px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
