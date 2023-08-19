@@ -43,3 +43,31 @@ body{
 .navlist li a:active{
   color: rgb(236, 50, 88);
 }
+#home{
+  background-color: burlywood;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+  height: 800px;
+}
+#ncert{
+  background-color: chocolate;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+  height: 800px;
+}
+#scert{
+  background-color: lightsalmon;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+  height: 800px;
+}
+#contact{
+  background-color: bisque;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+  height: 800px;
+}
